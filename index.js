@@ -12,7 +12,7 @@ function encodeBase62(n = null, length = 6) {
 
   let res = '';
   if (!n) {
-    n = Math.random() * maxRange;
+    n = Math.floor(Math.random() * maxRange);
   }
 
   while (n > 0) {
@@ -22,5 +22,5 @@ function encodeBase62(n = null, length = 6) {
 
   return res.padStart(6, '0').split('').reverse().join('');
 }
-
+console.log(encodeBase62());
 module.exports = { encodeBase62 };
