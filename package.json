@@ -1,0 +1,22 @@
+{
+  "name": "encodebase62",
+  "version": "1.0.0",
+  "description": "Encode your integer into base62 or generate random base62 encoding by providing required length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tribhuwan-Joshi/EncodeBase62.git"
+  },
+  "keywords": [
+    "base62"
+  ],
+  "author": "Tribhuwan Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tribhuwan-Joshi/EncodeBase62/issues"
+  },
+  "homepage": "https://github.com/Tribhuwan-Joshi/EncodeBase62#readme"
+}
