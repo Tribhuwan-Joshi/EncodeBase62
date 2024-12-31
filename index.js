@@ -23,4 +23,4 @@ function encodeBase62(n = null, length = 6) {
   return res.padStart(6, '0').split('').reverse().join('');
 }
 
-module.exports = encodeBase62;
+module.exports = { encodeBase62 };
